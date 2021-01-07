@@ -1,0 +1,554 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900';
+
+body {
+	background:#fff;
+	font-family: 'Lato', sans-serif;
+	line-height:1.6em;
+	overflow-x:hidden;
+	color:#404040;
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/*===== Lists =====*/
+ul, ol { margin-bottom:0px; }
+ul li { margin-bottom:15px; }
+/*===== End Lists =====*/
+
+a { color:#00bbcc; }
+a:focus, a:hover, a.active {color:#00bbcc;  }
+section{
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size:18px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size:18px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size:18px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size:18px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+::placeholder{
+	font-size:18px !important;
+	font-family: 'Lato', sans-serif !important;
+}
+
+
+.no_padding_left{
+	padding-left:0px !important;
+}
+.no_padding_right{
+	padding-right:0px !important;
+}
+.resume_button a{
+	max-width:160px;
+	margin:40px auto;
+	display:block;
+	border-radius:20px;
+	color:#808080 !important;
+	border-color:#b2b2b2 !important;
+	font-family: 'Lato', sans-serif; font-weight:900;
+	font-size:15px;
+	padding: 8px 10px;
+	border-width:2px !important;
+	background:#fcfcfc;
+	
+}
+.resume_button a:hover{
+	color:#fff !important;
+	background:#0abfbf;
+	border-color:#0abfbf !important;
+}
+.resume_button i{
+	padding-right:7px;
+}
+.form-control:focus {
+  border-color: #00b3ab;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 179, 171, 1) !important;
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 179, 171, 1) !important;
+}
+
+/*========================================
+ 	==== Header ====  
+========================================*/
+.img-circle {
+   -moz-border-radius: 50% !important;
+   -webkit-border-radius: 50%;
+	 border-radius: 50%;
+}
+.resume_outside-header {
+	width:100%;
+	height: 800px;
+
+}
+.header-image {
+	width: 100%;
+}
+.resume_profile_nav{
+}
+/*===== .logo =====*/
+.logo img{
+	margin-top:-150px;
+	max-width: 250px;
+}
+/*===== End .logo =====*/
+
+.sticky{
+ margin-top: -500px;
+ position:fixed;
+ display:block;
+ z-index:1000;
+}
+
+.resume_main_menu{
+	background:#f2f2f2;
+	margin-top:-80px;
+	max-width:200px;
+	margin-left:25px;
+	padding-top:85px;
+	padding-bottom:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.resume_profile_nav ul{
+ list-style:none;
+ 
+}
+.resume_profile_nav .primary li {
+ color:#373737;
+ text-align:left;
+ height:20px;
+}
+.resume_profile_nav .primary li a {
+	font-family: 'Lato', sans-serif;
+ text-decoration:none;
+ color:#000;
+ font-weight:700;
+ font-size:16px;
+}
+.resume_profile_nav .primary li a:hover{
+ color:#0abfbf;
+}
+.go_to_top i{
+	font-size: 13px;
+    margin-left: 2px;
+}
+.social_nav{
+	text-align:center;
+}
+.social_nav a{
+	padding:10px;
+	color:#000;
+}
+.social_nav a:hover{
+	color:#00bbcc;
+}
+
+
+/*========================================
+ 	==== End Header ====  
+========================================*/
+
+/*========================================
+ 	====4.0 Profile ====  
+========================================*/
+.rez_about{
+	position:relative;
+}
+.rez_top_title h1{
+	color:#404040;
+	font-family: 'Lato', sans-serif; font-weight:900;
+	margin-top:-75px;
+	font-size:48px;
+}
+
+h1.title {
+	color:#404040;
+	border-bottom:1px solid #bfbfbf;
+	text-align:center;
+	font-size:28px;
+	font-family: 'Lato', sans-serif; font-weight:700;
+	padding: 135px 0 36px 0;
+}
+.resume_progress_bar{
+}
+.resume_progress_bar h4{
+	color:#808080 !important;
+	font-family: 'Lato', sans-serif; font-weight:900;
+	
+}
+.resume_progress_bar .progress {
+    height: 3px !important;
+	margin-bottom:31px;
+}
+.resume_progress_bar .progress-bar{
+	background:#0abfbf;
+}
+.resume_perchantage{
+	margin-top:-30px;
+	font-size:16px;
+	font-weight:400;
+	color:#0ABFBF;
+}
+.progress-bar {
+	-webkit-transition:all 0.8s ease-in-out;
+    -moz-transition:all 0.8s ease-in-out;  
+    -o-transition:all 0.8s ease-in-out;         
+    transition:all 0.8s ease-in-out;  
+}
+
+/*========================================
+ 	====End Profile ====  
+========================================*/
+
+.about{
+	padding-right: 0px !important;
+    padding-left: 0px !important; 
+	
+	}
+.about_info{
+	line-height: 36px;
+    font-size: 18px;
+	font-family: 'Lato', sans-serif; font-weight:400;
+	margin: 19px 0 110px 0;
+}
+.about_info a{
+	color:#00bbcc;
+	text-decoration:none;
+}
+
+
+/*========================================
+ 	==== Experience Timeline ====  
+========================================*/
+
+#resume_timeline {
+  list-style: none;
+  position: relative;
+  
+}
+#resume_timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 1px;
+  background-color: #b2b2b2;
+  left: 50%;
+  margin-left: -1.5px;
+}
+#resume_timeline .clearFix {
+  clear: both;
+  height: 0;
+}
+#resume_timeline .resume_timeline-badge {
+  color: #fff;
+  width: 10px;
+  height: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -6px;
+  background-color: #cccccc;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+#resume_timeline .resume_timeline-badge span.resume_timeline-balloon-date-day {
+  font-size: 1.4em;
+}
+#resume_timeline .resume_timeline-badge span.resume_timeline-balloon-date-month {
+  font-size: .7em;
+  position: relative;
+  top: -10px;
+}
+#resume_timeline .resume_timeline-badge.resume_timeline-filter-movement {
+  background-color: #ffffff;
+  font-size: 1.7em;
+  height: 35px;
+  margin-left: -18px;
+  width: 35px;
+  top: 40px;
+}
+#resume_timeline .resume_timeline-badge.resume_timeline-filter-movement a span {
+  color: #4997cd;
+  font-size: 1.3em;
+  top: -1px;
+}
+#resume_timeline .resume_timeline-badge.resume_timeline-future-movement {
+  background-color: #ffffff;
+  height: 35px;
+  width: 35px;
+  font-size: 1.7em;
+  top: -16px;
+  margin-left: -18px;
+}
+#resume_timeline .resume_timeline-badge.resume_timeline-future-movement a span {
+  color: #4997cd;
+  font-size: .9em;
+  top: 2px;
+  left: 1px;
+}
+.resume_timeline-movement{
+	margin-top: 48px;
+}
+#resume_timeline .resume_timeline-movement {
+  position: relative;
+}
+#resume_timeline .resume_timeline-movement.resume_timeline-movement-top {
+  height: 60px;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item {
+  padding: 0px 0;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item .resume_timeline-panel {
+  color: #666;
+  position: relative;
+  margin-bottom:50px;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item .resume_timeline-panel .resume_timeline-panel-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item .resume_timeline-panel.credits .resume_timeline-panel-ul {
+  text-align: right;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item .resume_timeline-panel.credits .resume_timeline-panel-ul li {
+  color: #808080;
+  font-family: 'Lato', sans-serif; font-weight:700;
+  font-size:15px;
+ 
+}
+.resume_timeline-panel-ul li{
+	line-height:17px !important;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item .resume_timeline-panel.credits .resume_timeline-panel-ul li span.importo {
+  color: #468c1f;
+  font-size: 1.3em;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item .resume_timeline-panel.debits .resume_timeline-panel-ul {
+  text-align: left;
+}
+#resume_timeline .resume_timeline-movement .resume_timeline-item .resume_timeline-panel.debits .resume_timeline-panel-ul span.importo {
+     color: #404040;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+span.resume_importo{
+	font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+span.resume_importo:hover,.resume_timeline-panel-ul span.importo:hover{
+	color:#0abfbf !important;
+	cursor:pointer;
+}
+
+.resume_causale{
+	color: #808080;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.active li .resume_importo{
+	color:#0abfbf;
+	
+}
+#resume_timeline .resume_timeline-badge.active_box{
+	background-color:#0abfbf;
+}
+/*========================================
+ 	====End experience Timeline ====  
+========================================*/
+
+
+/*========================================
+ 	====Education Area====  
+========================================*/
+
+
+.resume_education_img{
+	text-align: center;
+	display: block;
+	margin-top:94px;
+	margin-bottom: 40px;
+}
+.resume_education_img img{
+	width: 150pt;
+	padding:30px 30px;
+}
+
+
+/*========================================
+ 	====End Education Area ====  
+========================================*/
+
+/*========================================
+ 	====Projects Area ====  
+========================================*/
+.resume_projects_content {
+	margin-top: 62px;
+}
+.carousel-inner > .item{
+	border:none !important;
+}
+.adjust1 {
+	float: left;
+	width: 100%;
+	margin-bottom: 0;
+}
+.adjust2 {
+	margin: 0;
+}
+.resume_projects .carousel-indicators {
+    bottom: 8px;
+    left: 210px;
+}
+.carousel-indicators li{
+	background-color:#bfbfbf !important;
+	border:none !important;
+	margin: 0px 15px 0px 0px !important;
+}
+.carousel-indicators .active{
+	width:10px !important;
+	height:10px !important;
+	margin-right: 0px 15px 0px 0px !important;
+}
+
+.carousel-indicators .active{
+	background-color:#454545 !important;
+}
+.media-object {
+
+	width: 100px;
+	margin: auto;
+	margin-top: -4%;
+}
+.caption p{
+	font-family: 'Lato', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	color:#404040;
+}
+
+.thumbnail{
+	border:none !important;
+}
+
+@media screen and (max-width: 768px) {
+.media-object {
+	margin-top: 0;
+}
+}
+.thumbnail .caption{
+	padding: 0 0 0 25px;
+}
+
+/*========================================
+ 	====End projects Area ====  
+========================================*/
+
+/*========================================
+ 	====Contact Area ====  
+========================================*/
+.resume_contact{
+	padding-bottom:170px;
+	padding-top:30px;
+}
+.resume_contact .input-group{
+	float:left !important;
+	padding:10px 15px !important;
+	
+}
+
+.resume_contact .input-group input{
+	border:1px solid #cccccc !important;
+	background:#f7f7f7 !important;
+	border-radius:5px !important;
+	margin-top:10px;
+	height:50px;
+	padding:0px 0px 0px 20px !important;
+	font-size:18px;
+}
+.resume_msz_box textarea{
+	min-width:100%;
+	margin-top:10px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	display:block;
+	border:1px solid #cccccc !important;
+	background:#f7f7f7 !important;
+	border-radius:5px !important;
+	margin-bottom:30px;
+	height:200px !important;
+	padding-top:20px !important;
+	padding-left:20px !important;
+	font-size:18px;
+}
+.resume_contact_form{
+	margin-top:40px;
+}
+.resume_btn_block{
+	padding:20px 0px;
+}
+.main-btn{ background:#00bbcc; border-color:#00bbcc; color:#fff;min-width:160px;min-height:50px;font-family: 'Lato', sans-serif;font-size:18px !important; font-weight:900 !important;}
+.main-btn:hover{ background:#00c2cc;color:#fff !important;}
+/*========================================
+ 	====End Contact Area ====  
+========================================*/
+
+/*========================================
+ 	====Footer Area ====  
+========================================*/
+.resume_footer{
+	width:100%;
+	height:auto;
+	color:#404040;
+	background:#f2f2f2;
+}
+.resume_footer h4{
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+	margin:40px 0 20px 0;
+	font-weight:700;
+}
+.rez_footer_social{
+	font-size:18px;
+	text-align:center;
+}
+.rez_footer_social a{
+	color:#404040;
+	padding:0 10px;
+}
+.rez_footer_social a i:hover{
+	color:#00b3ab;
+}
+.resume_footer p{
+	text-align:center;
+	font-family: 'Lato', sans-serif; font-weight:500;
+	font-size:15px;
+	margin:20px 0 40px 0;
+}
+/*========================================
+ 	====End Footer Area ====  
+========================================*/
